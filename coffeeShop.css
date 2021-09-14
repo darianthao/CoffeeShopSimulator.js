@@ -1,0 +1,91 @@
+* {
+    background-color: #562F1E;
+}
+
+.coffeeShopLogo {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.introduction {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.recipeInstructions{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.menuContainer {
+    text-align: center;
+    font-size: 10px;
+}
+
+.menuLogo {
+    color: #007654;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.displayMenuItems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    grid-template-rows: auto;
+    color: white;
+}
+
+.latte {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.frappicino {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.cappacino {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.flatwhite {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.espresso {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.mocha {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.orderBox {
+    background-color: white;
+    color: #007654;
+}
+
+.orderForm {
+
+}
+
+.orderArea {
+    text-align: center;
+    display: block;
+}
+
+.submitButton {
+    background-color: #007654;
+    border: black;
+    border-radius: 30px;
+}

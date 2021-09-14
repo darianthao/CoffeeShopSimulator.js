@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="coffeeShop.css">
+<script src="coffeeShop.js"></script>
+<html>
+
+<!-- Coffee Shop Title -->
+<head>
+<div class="coffeeShopLogoContainer">
+    <div>
+        <h1 class="coffeeShopLogo">Coffee Shop Simulator</h1>
+    </div>
+    <div>
+        <h2 class="introduction">welcome to the coffee shop simulator, pick a drink
+            from the menu, and I'll tell you how to make it
+        </h2>
+        <h3 class="recipeInstructions"> Recipe will be displayed in this order, short/tall/grande/venti
+        </h3>
+    </div>
+</div>
+</head>
+
+<body>
+    <!-- Menu  -->
+    <div class="menuContainer">
+        <h1 class="menuLogo">Menu</h1>
+
+        <div class="displayMenuItems">
+        <h1 class="latte">Latte</h1>
+        <h1 class="frappicino">Frappicino</h1>
+        <h1 class="cappacino">Cappacino</h1>
+        <h1 class="mocha">Mocha</h1>
+        <h1 class="flatwhite">Flat White</h1>
+        <h1 class="espresso">Espresso</h1>
+        </div>
+    </div>
+
+    <!-- Order Area-->
+    <div class="orderArea">
+        <form class="orderForm">
+            <input type="text" id="menuItems" name="menuItem" class="orderBox">
+            <input type="submit" id="submitButton" name="submitButton" class="submitButton" onclick="validateDrink()">
+        </form>
+
+    </div>
+
+</body>
+
+</html>
